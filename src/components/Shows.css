@@ -1,0 +1,39 @@
+/* .card1 {
+  width: 15rem;
+  height: 27rem;
+  background: white;
+  color: black;
+  margin-bottom: 4px;
+  margin-top: 10px;
+}
+*/
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+} 
+
+.card2 > img {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+}
+.book{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(117, 117, 249);
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+ text-decoration: none;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.book1{
+  text-decoration: none;
+}
